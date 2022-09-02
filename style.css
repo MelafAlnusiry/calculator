@@ -1,0 +1,81 @@
+ @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    position: relative;
+    top: 200px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+    /* font-family: 'Orbitron', sans-serif; */
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+
+}
+#btn {
+    background-color: #fb0066;
+
+}
+input[type=button] {
+    /* font-family: 'Orbitron', sans-serif; */
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+
+}
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+
+}
+body{
+  background-color: #FAAFBA;
+}
+ canvas {
+  border: 5px solid black;
+   background: black; 
+   box-shadow: black 20px 10px 50px; /*elevate our canvas and add shadow*/
+   width: 600px;
+  }
+
+  
+.home__social {
+    display: flex;
+    flex-direction: column;
+  }
+  .home__social {
+    padding-top: 0;
+    padding-bottom: 2.5rem;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+  
+  .home__social-icon {
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 1.5rem;
+    color: #fff;
+    position: relative;
+    left: 530px;
+    bottom: -700px;
+  }
+
+  
+  .home__social-icon:hover {
+    color: black;
+  }
